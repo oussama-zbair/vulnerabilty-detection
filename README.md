@@ -31,7 +31,7 @@ You can install the required libraries using pip:
 pip install pandas numpy scikit-learn tensorflow keras matplotlib seaborn
 ```
 ### Data Description
-The dataset used in this project is sourced from the National Vulnerability Database (NVD) and is called nvdcve-1.1-2003.json. It consists of various features related to vulnerabilities. The target variable is the impact score, which we aim to predict.
+The dataset used in this project is sourced from the [National Vulnerability Database (NVD)](https://nvd.nist.gov/ "National Vulnerability Database (NVD)") and is called nvdcve-1.1-2003.json. It consists of various features related to vulnerabilities. The target variable is the impact score, which we aim to predict.
 
 ### Methods
 The following machine learning models were implemented and compared:
